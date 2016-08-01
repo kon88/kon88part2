@@ -1,0 +1,122 @@
+@media only screen and (min-width: 1380px) {
+   .wrapper {
+      padding-top: 40px;
+   }
+   .intial {
+      width: 100px;
+      height: 100px;
+
+      span {
+         font-size: 3.4em;
+      }
+   }
+   .header h1 {
+      font-size: 7em;
+   }
+   .header h2 {
+      font-size: 3.2em;
+   }
+   .header .hello {
+      padding-top: 90px;
+   }
+   .header .btn {
+      margin: 130px auto 0px auto;
+   }
+   .projects h1 {
+      font-size: 2.4em;
+   }
+   .portfolio {
+      min-height: 900px;
+      h1 {
+         padding-top: 220px;
+         font-size: 3.4em;
+      }
+   }
+   .portfolio .pwrapper {
+      width:85%;
+   }
+
+}
+
+@media only screen and (min-width:520px) and (max-width:900px) {
+   .initial {
+      width: 70px;
+      height: 70px;
+
+      span {
+         font-size: 2.4em;
+      }
+   }
+   .header h1 {
+      font-size: 4em;
+   }
+   .header h2 {
+      font-size: 1.8em;
+   }
+   .header .icons {
+      padding-bottom: 1px;
+   }
+   .projects h1 {
+      padding-top: 1px;
+   }
+   
+   .portfolio {
+      min-height: 500px;
+         h1 {
+            padding-top: 40px;
+            font-size: 2em;
+         }
+         .pwrapper {
+            width: 60%;
+            height: 100%;
+            section {
+            flex-direction: column;
+            }
+            [class^="col"] {
+               margin-bottom: 20px;
+            }
+         }
+      }  
+   }
+
+   @media only screen and (max-width:519px) {
+      .initial {
+      width: 70px;
+      height: 70px;
+
+      span {
+         font-size: 2.4em;
+      }
+   }
+   .header h1 {
+      font-size: 3em;
+   }
+   .header h2 {
+      font-size: 1.4em;
+   }
+   .header .icons {
+      padding-bottom: 0px;
+   }
+   .projects h1 {
+      padding-top: 0px;
+   }
+   
+   .portfolio {
+      min-height: 500px;
+         h1 {
+            padding-top: 30px;
+            font-size: 1.6em;
+         }
+         .pwrapper {
+            width: 80%;
+            height: 100%;
+            section {
+            flex-direction: column;
+            }
+            [class^="col"] {
+               margin-bottom: 20px;
+            }
+         }
+      }  
+   }
+   
