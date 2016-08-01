@@ -19,7 +19,10 @@ li {
   display: inline-block; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #00b2ee; }
+  a :hover {
+    color: #ffc04d; }
 
 .header {
   min-width: 100%;
@@ -79,7 +82,7 @@ a {
 
 .btn:hover {
   border: 2px solid #fff;
-  color: #fff;
+  color: #fff !important;
   background: #00b2ee;
   transition: all .5s; }
 

@@ -53,7 +53,7 @@ var tl2 = new TimelineMax();
 
 tl2.from(heading, 1, {autoAlpha:0, scale:2}).
 staggerFrom(cards, 1, {autoAlpha:0},.4).
-staggerFrom(footer, 1, {delay: 1, autoAlpha:0, rotation:180, scale:1.5},.2);  
+staggerFrom(footer, 1, {delay: .5, autoAlpha:0, rotation:180, scale:1.5},.2);  
     
 var scene2 = new ScrollMagic.Scene({
     triggerElement: ".portfolio", offset:0
