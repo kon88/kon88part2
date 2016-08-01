@@ -51,12 +51,12 @@ var cards = $('.portfolio [class^="col"]');
 var footer = $('footer ul li');
 var tl2 = new TimelineMax();
 
-tl2.from(heading, 1, {autoAlpha:0, scale:3}).
+tl2.from(heading, 1, {autoAlpha:0, scale:2}).
 staggerFrom(cards, 1, {autoAlpha:0},.4).
 staggerFrom(footer, 1, {delay: 1, autoAlpha:0, rotation:180, scale:1.5},.2);  
     
 var scene2 = new ScrollMagic.Scene({
-    triggerElement: ".portfolio", offset:50
+    triggerElement: ".portfolio", offset:0
 }).setTween(tl2).addTo(controller);
 
 });

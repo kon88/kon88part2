@@ -193,14 +193,16 @@ footer {
   .header .btn {
     margin: 130px auto 0px auto; }
   .projects h1 {
-    font-size: 2.4em; }
+    font-size: 3.4em; }
   .portfolio {
     min-height: 900px; }
     .portfolio h1 {
-      padding-top: 220px;
-      font-size: 3.4em; }
+      padding-top: 150px;
+      font-size: 5em; }
   .portfolio .pwrapper {
-    width: 85%; } }
+    width: 85%; }
+  [class^="col"] {
+    font-size: 1.4em; } }
 
 @media only screen and (min-width: 520px) and (max-width: 900px) {
   .initial {
