@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, serif;
+  max-width: 100%; }
+
+body {
+  background: #515151;
+  overflow-x: hidden; }
+
+li {
+  list-style: none;
+  display: inline-block; }
+
+a {
+  text-decoration: none; }
+
+.header {
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  background: #f5e5f5;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.wrapper {
+  padding-top: 30px; }
+
+.initial {
+  position: relative;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background: #ffc04d;
+  border-radius: 50%; }
+  .initial span {
+    position: absolute;
+    font-size: 3em;
+    color: #f5e5f5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+.header h1 {
+  font-size: 5.4em;
+  margin: 0;
+  color: #6b6b6b; }
+  .header h1 span {
+    position: relative;
+    display: inline-block;
+    white-space: pre;
+    -webkit-font-smoothing: antialiased; }
+
+.header h2 {
+  font-family: Orbitron, serif;
+  font-size: 2.6em;
+  color: #00b2ee; }
+
+.header .hello {
+  padding-top: 10px; }
+
+.header .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0px auto;
+  width: 140px;
+  height: 55px;
+  border: 2px solid #00b2ee;
+  color: #00b2ee;
+  border-radius: 5px; }
+
+.btn:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background: #00b2ee;
+  transition: all .5s; }
+
+.header .icons {
+  margin: 30px auto;
+  text-align: center;
+  padding-bottom: 30px; }
+  .header .icons ul {
+    padding: 0; }
+  .header .icons li {
+    padding: 15px;
+    font-size: 1.4em;
+    color: #00b2ee; }
+
+.projects {
+  margin: 60px auto;
+  padding-bottom: 1px;
+  width: 100%;
+  text-align: center; }
+  .projects h1 {
+    padding-top: 30px;
+    color: #fff; }
+
+.mySlider {
+  margin: 40px auto;
+  width: 90%;
+  height: auto;
+  display: block; }
+  .mySlider .item img {
+    width: 100%; }
+
+.portfolio {
+  margin: 40px auto;
+  padding-bottom: 100px;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  background: url("/img/sketching-gray2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden; }
+  .portfolio h1 {
+    padding-top: 80px;
+    font-size: 2.4em; }
+    .portfolio h1 span {
+      display: inline-block;
+      white-space: pre; }
+
+.portfolio .pwrapper {
+  margin: 40px auto 0 auto;
+  width: 95%;
+  overflow: hidden; }
+  .portfolio .pwrapper section {
+    display: flex;
+    justify-content: space-around; }
+  .portfolio .pwrapper .col1, .portfolio .pwrapper .col2, .portfolio .pwrapper .col3 {
+    padding: 20px;
+    flex: 1 0 0; }
+
+.portfolio .pwrapper .initial2 {
+  position: relative;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background: #ffc04d;
+  border-radius: 50%; }
+  .portfolio .pwrapper .initial2 #logo2 {
+    position: absolute;
+    font-size: 3em;
+    color: #f5e5f5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+.portfolio .pwrapper section i {
+  font-size: 90px;
+  color: #ffc04d; }
+
+footer {
+  background: #515151;
+  height: 70px;
+  padding: 0;
+  margin: -35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.1em; }
+  footer section {
+    padding: 15px;
+    display: inline-block; }
+  footer li:first-of-type {
+    padding-right: 20px; }
+  footer li:hover {
+    color: #00b2ee; }
