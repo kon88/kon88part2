@@ -64,13 +64,14 @@
       border: 2px solid $sky-blue;
       color: $sky-blue;
       border-radius: 5px;
-}
-.btn:hover {
+}     
+      .btn:hover {
       border: 2px solid #fff;
-      color: #fff;
+      color: #fff !important;
       background: $sky-blue;
       transition: all .5s;
-}
+      }
+
 
 .header .icons {
       margin: 30px auto;
