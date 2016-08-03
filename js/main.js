@@ -24,8 +24,10 @@ $('.mySlider').slick({
 });
 
 // header animation
-var controller = new ScrollMagic.Controller();
 
+(function scrollanim(){
+
+var controller = new ScrollMagic.Controller();
 $('.wbText').lettering();
 var letters = $('.wbText span');
 var tl = new TimelineMax({delay:.5});
@@ -58,6 +60,7 @@ staggerFrom(footer, 1, {delay: .5, autoAlpha:0, rotation:180, scale:1.5},.2);
 var scene2 = new ScrollMagic.Scene({
     triggerElement: ".portfolio", offset:0
 }).setTween(tl2).addTo(controller);
+})();
 
 });
 
