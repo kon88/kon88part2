@@ -90,6 +90,60 @@
 
 // End of header
 
+.mobile-section {
+      margin: 0 auto;
+      min-width: 100%;
+      min-height: 100%;
+      padding: 80px 80px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      background: #fff;
+
+            [class^="mobile"] {
+                  flex: 1;
+                  padding: 10px;
+            }
+}
+
+.mobile-section .mobile-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      #angular {
+            padding-bottom: 20px;
+      }
+    
+}
+
+.mobile-section .mobile-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      h1 {
+            font-size: 2.8em;
+            color: $sky-blue;
+      }
+      p {
+            color: #515151;
+      }
+      .btn {
+            margin-top: 40px;
+            padding: 20px 22px;
+            border: 2px solid $sky-blue;
+            color: $sky-blue;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+      }
+}
+//End of Mobile
+
 .projects {
       margin: 60px auto;
      padding-bottom: 1px;

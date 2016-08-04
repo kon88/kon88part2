@@ -24,8 +24,10 @@ $('.mySlider').slick({
 });
 
 // header animation
-var controller = new ScrollMagic.Controller();
 
+(function scrollanim(){
+
+var controller = new ScrollMagic.Controller();
 $('.wbText').lettering();
 var letters = $('.wbText span');
 var tl = new TimelineMax({delay:.5});
@@ -46,6 +48,17 @@ var scene = new ScrollMagic.Scene({
     triggerElement: ".header", offset:0
 }).setTween(tl).addTo(controller);
 
+var mobilePics = $('.mobile-section #angular, #ionic');
+var mobileH1 = $('.mobile-right h1');
+var mobileTL = new TimelineMax;
+
+mobileTL.from(mobilePics, 1, {autoAlpha: 0, x: -50}).
+from(mobileH1, 1, {autoAlpha:0,});
+
+var scene1 = new ScrollMagic.Scene({
+    triggerElement: ".mobile-section", offset: 0
+}).setTween(mobileTL).addTo(controller);
+
 var heading = $('.portfolio h1');
 var cards = $('.portfolio [class^="col"]');
 var footer = $('footer ul li');
@@ -58,6 +71,7 @@ staggerFrom(footer, 1, {delay: .5, autoAlpha:0, rotation:180, scale:1.5},.2);
 var scene2 = new ScrollMagic.Scene({
     triggerElement: ".portfolio", offset:0
 }).setTween(tl2).addTo(controller);
+})();
 
 });
 

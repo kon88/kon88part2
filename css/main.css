@@ -97,6 +97,48 @@ a {
     font-size: 1.4em;
     color: #00b2ee; }
 
+.mobile-section {
+  margin: 0 auto;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 80px 80px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #fff; }
+  .mobile-section [class^="mobile"] {
+    flex: 1;
+    padding: 10px; }
+
+.mobile-section .mobile-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .mobile-section .mobile-left #angular {
+    padding-bottom: 20px; }
+
+.mobile-section .mobile-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .mobile-section .mobile-right h1 {
+    font-size: 2.8em;
+    color: #00b2ee; }
+  .mobile-section .mobile-right p {
+    color: #515151; }
+  .mobile-section .mobile-right .btn {
+    margin-top: 40px;
+    padding: 20px 22px;
+    border: 2px solid #00b2ee;
+    color: #00b2ee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+
 .projects {
   margin: 60px auto;
   padding-bottom: 1px;
