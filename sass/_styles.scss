@@ -203,10 +203,19 @@
            display: flex;
            justify-content: space-around;
       }
-
+            
+            a {
+                  color: #fff;
+            }
             .col1, .col2, .col3 {
                   padding: 20px;
                   flex: 1 0 0;
+                  margin: 5px;
+            }
+            a:hover {
+                  background: rgba(0,0,0,.3);
+                  border-radius: 10px;
+                  transition: all 1s;
             }
 }
 
