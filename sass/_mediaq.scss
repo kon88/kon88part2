@@ -22,6 +22,13 @@
    .header .btn {
       margin: 130px auto 0px auto;
    }
+   .mobile-section {
+      padding: 100px 140px;
+   }
+   .mobile-right h1 {
+      font-size: 3.4em;
+   }
+
    .projects h1 {
       font-size: 3.4em;
    }
@@ -99,6 +106,22 @@
    }
    .header .icons {
       padding-bottom: 0px;
+   }
+   .mobile-section {
+      padding: 40px 20px;
+      flex-direction: column;
+      margin: 0 auto;
+   }
+   .mobile-section .mobile-left #angular img{
+      width: 80%;
+      padding-left: 60px
+   }
+   .mobile-section .mobile-left #ionic img{
+      padding-left: 40px;
+      width: 80%;
+   }
+   .mobile-section .mobile-right h1 {
+      font-size: 2em;
    }
    .projects h1 {
       padding-top: 0px;
