@@ -48,6 +48,17 @@ var scene = new ScrollMagic.Scene({
     triggerElement: ".header", offset:0
 }).setTween(tl).addTo(controller);
 
+var mobilePics = $('.mobile-section #angular, #ionic');
+var mobileH1 = $('.mobile-right h1');
+var mobileTL = new TimelineMax;
+
+mobileTL.from(mobilePics, 1, {autoAlpha: 0, x: -50}).
+from(mobileH1, 1, {autoAlpha:0,});
+
+var scene1 = new ScrollMagic.Scene({
+    triggerElement: ".mobile-section", offset: 0
+}).setTween(mobileTL).addTo(controller);
+
 var heading = $('.portfolio h1');
 var cards = $('.portfolio [class^="col"]');
 var footer = $('footer ul li');
