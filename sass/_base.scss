@@ -28,3 +28,15 @@ a {
       color: lighten(orange, 15%);
    }
 }
+
+.overlay{
+	background-color:rgba(0,0,0,0.4); 
+	display:none;
+	height:100%;
+	left:0;
+	margin:auto;
+	position:fixed; 
+	top:0;
+ 	width:100%;
+ 	z-index:1001;
+  }
